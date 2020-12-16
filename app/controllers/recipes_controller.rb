@@ -12,11 +12,6 @@ class RecipesController < ApplicationController
     @recipe = Recipe.new
     @recipe.ingredients.build()
     @recipe.ingredients.build()
-
-    # @recipes.ingredients.build(title: 'Recipe 1')
-    # @recipes.ingredients.build(title: 'Recipe 2')
-    # @person.addresses.build(address_type: 'work')
-    # @person.addresses.build(address_type: 'home')
   end
 
   def create
